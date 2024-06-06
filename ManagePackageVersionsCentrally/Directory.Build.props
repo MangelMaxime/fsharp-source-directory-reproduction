@@ -12,4 +12,7 @@
         <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
         <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
     </PropertyGroup>
+   <PropertyGroup>
+    <PackageReference Include="FSharp.Core" PrivateAssets="all" />
+   </PropertyGroup>
 </Project>

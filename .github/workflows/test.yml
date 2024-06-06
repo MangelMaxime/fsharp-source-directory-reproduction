@@ -25,3 +25,5 @@ jobs:
         dotnet run --project Standard
         echo "-------- PROJECT (ManagePackageVersionsCentrally) --------"
         dotnet run --project ManagePackageVersionsCentrally
+        echo "-------- PROJECT (Minimal) --------"
+        dotnet run --project Minimal

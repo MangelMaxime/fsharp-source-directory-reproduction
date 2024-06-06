@@ -22,4 +22,4 @@ jobs:
         echo "-------- FSI --------"
         dotnet fsi test.fsx
         echo "-------- PROJECT --------"
-        dotnet run --project repro
+        dotnet run --project src

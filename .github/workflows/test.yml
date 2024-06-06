@@ -21,5 +21,7 @@ jobs:
       run: |
         echo "-------- FSI --------"
         dotnet fsi test.fsx
-        echo "-------- PROJECT --------"
-        dotnet run --project src
+        echo "-------- PROJECT (Standard) --------"
+        dotnet run --project Standard
+        echo "-------- PROJECT (ManagePackageVersionsCentrally) --------"
+        dotnet run --project ManagePackageVersionsCentrally
